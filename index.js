@@ -1,4 +1,4 @@
-// MADE BY SYNTAX
+// Modify by gaeuly
 
 const fs = require('fs');
 const path = require('path');
@@ -37,7 +37,7 @@ const moment = require('moment');
 
 
 const config = {
-    token: 'TOKEN', // Replace with your token
+    token: 'TOKEN', //Your token 
     status: {
         type: 'dnd',
         emoji: '🌟'
@@ -56,60 +56,60 @@ const client = new Discord.Client({
 const rpcStates = [
     {
         type: 'STREAMING',
-        name: 'Coding Adventures',
-        details: '! Syntax 🥀',
-        state: 'Mxybe a dev?',
-        url: 'https://www.twitch.tv/Syntax',
+        name: 'Coding Moonveil',
+        details: 'gaeul',
+        state: 'gaeul a dev?',
+        url: 'https://www.twitch.tv/gaeuly',
         timestamps: {
             start: Date.now()
         },
         assets: {
             largeImage: 'https://media.discordapp.net/attachments/1319666530828550206/1327569707930484766/Aura.gif?ex=678e1723&is=678cc5a3&hm=19c91a1b88cde99b704f67591765e14c5e3f8ba3685fe4bd299c486a98a91ed7&=',
-            largeText: 'Code Wizard',
+            largeText: 'Code',
             smallImage: 'https://cdn.discordapp.com/emojis/1224756226311852042.gif?size=48',
-            smallText: 'Hacker Mode'
+            smallText: 'Hacker'
         },
         buttons: [
-            { label: 'GitHub', url: 'https://github.com/WannaBeGhoSt' },
-            { label: 'Support', url: 'https://discord.gg/5yqxjKdyy8' }
+            { label: 'GitHub', url: 'https://github.com/Gaeuly' },
+            { label: 'Support', url: '' }
         ]
     },
     {
         type: 'WATCHING',
-        name: 'Pihu',
-        details: 'I Love Pihu <3',
+        name: 'Sofia',
+        details: 'I Love Sopi <3',
         state: 'She is mine',
         timestamps: {
             start: Date.now()
         },
         assets: {
             largeImage: 'https://media.discordapp.net/attachments/1318214017009061941/1330475639668609065/couple_gifs.gif?ex=678e1d7f&is=678ccbff&hm=6c54617923dba04579f418287266a1de0d568e53ad0896ee1673b45dcf43ee9f&=',
-            largeText: 'Syntax Love Pihu',
+            largeText: 'eul Love Sopi',
             smallImage: 'https://cdn.discordapp.com/emojis/1208635453331214358.gif?size=48',
-            smallText: 'Pihu Qt'
+            smallText: 'Sopi tf'
         },
         buttons: [
-            { label: 'Ownz..?', url: 'https://discord.gg/5yqxjKdyy8' },
-            { label: 'Bio', url: 'https://guns.lol/xpy3' }
+            { label: 'Ownz..?', url: '' },
+            { label: 'Bio', url: 'https://gaeuly.my.id/' }
         ]
     },
     {
         type: 'PLAYING',
-        name: '/query in mind',
-        details: 'Debugging Life',
-        state: 'Raiding Mode',
+        name: 'TES',
+        details: 'Debugging',
+        state: 'Raiding',
         timestamps: {
             start: Date.now()
         },
         assets: {
             largeImage: 'https://media.discordapp.net/attachments/1318214017009061941/1330475624242089984/download.gif?ex=678e1d7b&is=678ccbfb&hm=0b96e17d65457635269e2547a4ea476f68bd29b85e751294bcf0497b6b3358e6&=',
-            largeText: 'Raid Mode',
+            largeText: 'Raid',
             smallImage: 'https://cdn.discordapp.com/emojis/1312633052668629055.gif?size=48',
             smallText: 'Be aware'
         },
         buttons: [
-            { label: 'H O M E T O W N', url: 'https://discord.gg/query' },
-            { label: 'Bio', url: 'https://guns.lol/xpy3' }
+            { label: 'H O M E T O W N', url: '' },
+            { label: 'Bio', url: 'https://gaeuly.my.id/' }
         ]
     }
 ];
